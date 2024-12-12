@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To login with valid username and password",
+        "description": "",
+        "id": "to-validate-the-facebook-login-page;to-login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7971380000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To open the browser and maximize the window",
+            "match": {
+              "location": "Final.to_open_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10948866300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of facebook",
+            "match": {
+              "location": "Final.to_launch_the_url_of_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 378915200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter valid username",
+            "match": {
+              "location": "Final.to_enter_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372306200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter valid password",
+            "match": {
+              "location": "Final.to_enter_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260000100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click login button",
+            "match": {
+              "location": "Final.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1387287200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the entire chrome browser",
+            "match": {
+              "location": "Final.to_close_the_entire_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the facebook login page",
+    "description": "",
+    "id": "to-validate-the-facebook-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FacebookFinal.feature",
+    "tags": []
+  }
+]

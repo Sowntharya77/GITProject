@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="280.71797">
+    <testcase classname="To verify the ICICI Bank login page" name="To verify login page with valid username and invalid password" time="280.71797">
+        <system-out><![CDATA[Given To open the chrome browser and maximize the window....................passed
+When To launch the url of ICICI Bank website................................passed
+And To click the getuser option.............................................passed
+And To enter the userId in userId field.....................................passed
+And To enter the password in the password field.............................passed
+And To click Submit button..................................................passed
+Then To close the entire browser............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
